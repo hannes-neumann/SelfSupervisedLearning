@@ -1,0 +1,13 @@
+[project]
+name = "selfsupervisedlearning"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "google>=3.0.0",
+    "lightly>=1.5.23",
+    "nbformat>=5.10.4",
+    "torchvision>=0.26.0",
+    "wandb>=0.26.0",
+]
