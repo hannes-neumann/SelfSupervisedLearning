@@ -1,0 +1,7 @@
+function ClickConnect(){
+    console.log("Interaktion simuliert...");
+    // Klickt auf den Button "Verbinden" oder "Ressourcen anzeigen"
+    document.querySelector("colab-connect-button").shadowRoot.getElementById("connect").click();
+}
+// Alle 60 Sekunden ausführen
+setInterval(ClickConnect, 60000);

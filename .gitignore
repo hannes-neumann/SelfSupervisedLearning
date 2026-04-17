@@ -1,3 +1,5 @@
 */wandb/
 .venv/
 notebooks/data
+.env
+*/models
