@@ -4,3 +4,6 @@ notebooks/data
 .env
 */models/*
 *.html
+# OS / Python artifacts
+.DS_Store
+__pycache__/
